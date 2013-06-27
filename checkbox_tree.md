@@ -17,7 +17,7 @@ Write a custom checkbox-tree component.
 ### Code requirements
 
 1.  You can use non-UI component JavaScript libraries such as jQuery, underscore.js, Backbone.js, etc.
-2.  HTML markup should be written through the JavaScript either as a template or by creating DOM nodes.
+2.  HTML markup should be written through JavaScript either as templates or by creating DOM nodes.
 3.  CSS should be contained in its own file which could be included in any application page.
 4.  Component constructor takes in JSON data (which can be provided as a variable for the purposes of this test).
 5.  Provide a public API that retrieves the selection state of the component in JSON format (semi-checked is false). 
@@ -69,6 +69,11 @@ Input Data
             ]
         }
     ];
+
+Usage
+-----
+
+    $("#cities").checkboxTree(jsonData);
 
 
 Output UI
