@@ -74,6 +74,14 @@ Usage
 -----
 
     $("#cities").checkboxTree(jsonData);
+    
+or
+    
+    var checkboxTree = new CheckboxTree({
+        el: "#cities",
+        data: jsonData
+    });
+    checkboxTree.render();
 
 
 Output UI
