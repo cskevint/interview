@@ -21,7 +21,7 @@ Write a custom checkbox-tree component.
 3.  CSS should be contained in its own file which could be included in any application page.
 4.  Component constructor takes in JSON data (which can be provided as a variable for the purposes of this test).
 5.  Provide a public API that retrieves the selection state of the component in JSON format (semi-checked is false). 
-
+6.  Submit code in a [JSFiddle](http://jsfiddle.net) (preferable) or a [Gist](http://gist.github.com/).
 
 Input Data
 ----------
