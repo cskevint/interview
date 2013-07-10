@@ -6,7 +6,36 @@ Task
 
 Write a custom checkbox-tree component by hand. 
 
-__The purpose of this test is to determine your ability to create custom components on top of existing base-functionality JavaScript libraries. You CANNOT use exisiting UI component libraries, plugins or extensions.__
+__The purpose of this test is to determine your ability to create custom components on top of external base-functionality JavaScript libraries (e.g. jQuery). You CANNOT use exisiting UI component libraries, plugins or extensions that render a tree with checkbox capabilities.__
+
+UI Mockup
+---------
+
+    + [x] Arizona
+      * [x] Phoenix
+      * [x] Tucson
+    + [-] California
+      * [ ] Fresno
+      * [x] Los Angeles
+      * [ ] Sacramento
+      * [ ] San Diego
+      * [ ] San Francisco
+      * [ ] San Jose
+    - [ ] Oregon
+    - [ ] Nevada
+    - [ ] New Mexico
+    $.ajax
+
+### Data Load and Transformation
+
+1. Perform a JSONP ajax call like so:    
+<pre>$.ajax({
+        url: "https://raw.github.com/cskevint/interview/master/checkbox_tree.json",
+        dataType: "jsonp"   
+});</pre>
+
+2. This will call a __window.data__ function with the result JSON string as the argument. You will need to parse it to look like the structure below as input for the component.
+
 
 ### Component requirements:
 
@@ -26,8 +55,8 @@ __The purpose of this test is to determine your ability to create custom compone
 6.  You cannot change the structure of the JSON data -- imagine it is coming from the server.
 7.  Submit code in a [JSFiddle](http://jsfiddle.net) (preferable) or a [Gist](http://gist.github.com/).
 
-Input Data
-----------
+Input for the Component
+-----------------------
 
     jsonData = [
         {
@@ -87,21 +116,6 @@ or
     checkboxTree.render();
 
 
-Output UI
----------
 
-    + [x] Arizona
-      * [x] Phoenix
-      * [x] Tucson
-    + [-] California
-      * [ ] Fresno
-      * [x] Los Angeles
-      * [ ] Sacramento
-      * [ ] San Diego
-      * [ ] San Francisco
-      * [ ] San Jose
-    - [ ] Oregon
-    - [ ] Nevada
-    - [ ] New Mexico
 
 
