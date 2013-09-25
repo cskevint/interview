@@ -1,7 +1,7 @@
 Interview Problems
 ------------------
 
-A repo to keep interview problems for software engineering candidates.
+Solve any or all of these interview problems for a software engineering position:
 
 1. Palindrome
  
