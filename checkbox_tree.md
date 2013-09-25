@@ -22,7 +22,6 @@ __The purpose of this test is to determine your ability to create custom compone
     - [ ] Oregon
     - [ ] Nevada
     - [ ] New Mexico
-    $.ajax
 
 ### Data Load and Transformation
 
