@@ -28,7 +28,8 @@ __The purpose of this test is to determine your ability to create custom compone
 1.  Only nodes with children can be opened or closed using a plus/minus or right triangle/down triangle (triangle with CSS preferred).
 2.  Each node has a checkbox which does not impact closed/open state (checkboxes indicate selection state e.g. for a filter).
 3.  If any node or any of its children is initially selected, open it by default at render time. 
-4.  [Optional] Provide a UI-only semi-checked state for nodes that have some children checked but not all.
+4. Provide a public API that retrieves the selection state of the component in JSON format (semi-checked is false). API result format is up to you.
+5.  [Optional] Provide a UI-only semi-checked state for nodes that have some children checked but not all.
 
 ### Input for the Component
 
