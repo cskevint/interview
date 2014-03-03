@@ -23,17 +23,6 @@ __The purpose of this test is to determine your ability to create custom compone
     - [ ] Nevada
     - [ ] New Mexico
 
-### Data Load and Transformation
-
-1. Perform a JSONP ajax call like so:    
-<pre>$.ajax({
-        url: "https://raw.github.com/cskevint/interview/master/checkbox_tree.json",
-        dataType: "jsonp"   
-});</pre>
-
-2. This will call a __window.data__ function with the result JSON string as the argument. You will need to parse it to look like the structure below as input for the component.
-3. Question: Why do we need to use JSONP?
-
 ### Component requirements
 
 1.  Only nodes with children can be opened or closed using a plus/minus or right triangle/down triangle (triangle with CSS preferred).
@@ -96,6 +85,17 @@ __The purpose of this test is to determine your ability to create custom compone
             ]
         }
     ];
+
+### Data Load and Transformation
+
+1. Perform a JSONP ajax call like so:    
+<pre>$.ajax({
+        url: "https://raw.github.com/cskevint/interview/master/checkbox_tree.json",
+        dataType: "jsonp"   
+});</pre>
+
+2. This will call a __window.data__ function with the result JSON string as the argument. You will need to parse it to look like the structure above as _input for the component_.
+3. Question: Why do we need to use JSONP?
 
 ### Usage
 
