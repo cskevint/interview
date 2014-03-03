@@ -93,8 +93,7 @@ __The purpose of this test is to determine your ability to create custom compone
         url: "https://raw.github.com/cskevint/interview/master/checkbox_tree.json",
         dataType: "jsonp"   
 });</pre>
-
-2. This will call a __window.data__ function with the result JSON string as the argument. 
+2. This will call a __window.data__ function with the result JSON string as the argument.
 3. You will need to parse it to look like the structure above as _input for the component_.
 4. Question: Why do we need to use JSONP?
 
