@@ -14,3 +14,7 @@ Solve any or all of these interview problems for a software engineering position
 1. Checkbox Tree
 
     https://github.com/cskevint/interview/blob/master/checkbox_tree.md
+
+1. Domino
+
+    https://github.com/cskevint/interview/blob/master/domino.md
