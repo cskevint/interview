@@ -6,7 +6,7 @@ __This is a timed 50 minute exercise.__
 
 ### Task 
 
-Write the HTML, CSS and JavaScript needed to display a domino tile and populate it with random values for its top and bottom faces when a button (Generate) is clicked. Additionally, provide 2 additional buttons that rotate the tile.
+Write the HTML, CSS and JavaScript needed to display a domino tile and populate it with random values for its top and bottom faces when a button is clicked. Additionally, provide 2 buttons that rotate the tile.
 
 
 ### UI Mockup
