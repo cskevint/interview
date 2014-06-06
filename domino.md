@@ -11,7 +11,7 @@ Write css, html and javascript necessary to populate a domino with random values
 
 ### UI Mockup
 
-<img src="domino.svg">
+![Image](domino.png?raw=true)
 
 ### Component requirements
 
