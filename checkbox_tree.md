@@ -91,6 +91,8 @@ __The purpose of this test is to determine your ability to create custom compone
 1. Perform an ajax call like below.
 2. You will need to parse it and transform it to look like the structure above as _input for the component_.
 
+#### Starter Code
+    
     $.ajax({
         url: "https://rawgit.com/cskevint/interview/master/checkbox_tree.json"
     }).done(function (result) {
