@@ -88,14 +88,14 @@ __The purpose of this test is to determine your ability to create custom compone
 
 ### Data Load and Transformation
 
-1. Perform a JSONP ajax call like so:    
+1. Perform an ajax call like so:    
 <pre>$.ajax({
-        url: "https://raw.github.com/cskevint/interview/master/checkbox_tree.json",
-        dataType: "jsonp"   
+    url: "https://rawgit.com/cskevint/interview/master/checkbox_tree.json"
+}).done(function (result) {
+    $(document.body).append(JSON.stringify(result));
 });</pre>
 2. This will call a __window.data__ function with the resulting JSON string as the argument.
 3. You will need to parse it and transform it to look like the structure above as _input for the component_.
-4. Question: Why do we need to use JSONP?
 
 ### Usage
 
