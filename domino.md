@@ -27,4 +27,4 @@ Write the HTML, CSS and JavaScript needed to display a domino tile and populate 
 
 ### Evaluation
 
-What will be evaluated in addition to the correct of your solution is the style and architecture of your code.
+In addition to the correctness of your solution, the style and architecture of your code will also be evaluated.
