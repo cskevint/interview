@@ -24,3 +24,7 @@ Write the HTML, CSS and JavaScript needed to display a domino tile and populate 
 
 1.  You can use base JavaScript libraries such as jQuery, underscore.js, Backbone.js, etc.
 2.  Submit code in a [JSFiddle](http://jsfiddle.net) so that it can be easily viewed and analyzed.
+
+### Evaluation
+
+What will be evaluated in addition to the correct of your solution is the style and architecture of your code.
