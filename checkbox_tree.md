@@ -113,7 +113,7 @@ or
 
 ### Evaluation
 
-Your solution will be evaluated on the style and architecture of your code as well as the extent to which your implementation meets the specifications above.
+Your implementation will be evaluated on the style and architecture of your code as well as the extent to which it meets the specifications above.
 
 
 
