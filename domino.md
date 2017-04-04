@@ -11,7 +11,11 @@ Write the HTML, CSS and JavaScript needed to display a domino tile and populate 
 
 ### UI Mockup
 
-<img src="https://docs.google.com/drawings/d/1rPyQOVB5W-7p-UOO4iYqiyD8L3vjdGa3iYWih1L5Mkc/pub?w=960&amp;h=720">
+<img src="http://imgur.com/pHhXxor.png">
+
+Domino Faces
+
+<img src="http://imgur.com/3Tqn7av.png">
 
 ### Component requirements
 
